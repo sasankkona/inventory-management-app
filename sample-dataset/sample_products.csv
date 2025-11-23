@@ -1,0 +1,6 @@
+name,unit,category,brand,stock,status,image
+iPhone 12,pcs,Electronics,Apple,50,In Stock,https://example.com/iphone12.jpg
+Galaxy S21,pcs,Electronics,Samsung,30,In Stock,https://example.com/galaxys21.jpg
+Jeans XL,pcs,Clothing,Levi's,20,In Stock,https://example.com/jeansxl.jpg
+T-shirt M,pcs,Clothing,Nike,0,Out of Stock,https://example.com/tshirtm.jpg
+Harry Potter Book,pcs,Books,Scholastic,15,In Stock,https://example.com/harrypotter.jpg

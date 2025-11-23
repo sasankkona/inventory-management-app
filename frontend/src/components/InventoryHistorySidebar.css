@@ -1,0 +1,46 @@
+.history-sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(15, 23, 42, 0.35);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 20;
+}
+
+.history-sidebar {
+    width: 360px;
+    max-width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+    box-shadow: -2px 0 8px rgba(15, 23, 42, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.history-table th,
+.history-table td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.history-table thead {
+    background-color: #f9fafb;
+}
+
+.history-sidebar p {
+    padding: 0.75rem 1rem;
+}

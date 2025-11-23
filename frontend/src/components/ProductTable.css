@@ -1,0 +1,74 @@
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.product-table th,
+.product-table td {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.product-table thead {
+    background-color: #f9fafb;
+}
+
+.product-row:hover {
+    background-color: #f3f4f6;
+    cursor: pointer;
+}
+
+.product-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.placeholder-image {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    background-color: #e5e7eb;
+    border-radius: 999px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.status-in {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.status-out {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+.empty-row {
+    text-align: center;
+    color: #6b7280;
+}
+
+@media (max-width: 768px) {
+
+    .product-table th:nth-child(1),
+    .product-table td:nth-child(1),
+    .product-table th:nth-child(4),
+    .product-table td:nth-child(4),
+    .product-table th:nth-child(5),
+    .product-table td:nth-child(5) {
+        display: none;
+    }
+}
